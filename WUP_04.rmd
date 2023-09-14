@@ -45,7 +45,11 @@ We have changed all the character variables to factor variables. The type of thi
 
 ```{r}
 basicCN <- ggplot(mydata,aes(x=RACE,y=WORDSUM))
+
+basicCN + geom_boxplot()
 ```
+
+Looking at the graph that we just plotted, there isn't a noticeable difference. It is unclear whether there is a significant difference between the WHITE and OTHER races. It is also unclear whether there is a difference between BLACK and OTHER races.
 
 ### Numerical Descriptive Results
 
