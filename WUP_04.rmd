@@ -59,7 +59,7 @@ Looking at the graph that we just plotted, there isn't a noticeable difference. 
 favstats(WORDSUM~RACE,data=mydata)
 ```
 
-
+Looking at the box plot graph, it is unclear whether there is a significant difference between the WHITE and OTHER races. It is also unclear whether there is a difference between the BLACK and OTHER races.
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
